@@ -6,20 +6,19 @@
     <title>Color Generator</title>
     <link rel="stylesheet" href="output.css">
     <link rel="icon" type="image/x-icon" href="Favion-Color-Generator.png">
+    <script src="ColorGenerator.js"></script>
 </head>
 <body>
-    <div class="flex flex-col h-screen w-screen">
-        <p class="text-5xl font-sans font-bold text-center p-10">Random Color Generator</p>
-        <div class="mx-auto flex flex-col mt-[7rem]">
-            <p class="text-2xl font-semibold">Click here to Generate a Random Colour</p>
-            <div class="flex gap-4 mt-8 mx-auto">
-                <button class="text-2xl font-sans font-medium p-3 bg-white rounded-2xl">Click Here!</button>
-                <div class="flex gap-4 text-2xl font-sans font-medium p-3 bg-white rounded-2xl">
-                    <p>svg</p>
-                    <button>Copy Code!</button>
-                </div>
-            </div>
+    <wrapper>
+        <!-- Heading -->
+        <div class="text-4xl font-thin m-4"> 
+            <span class=""> Random Color Generator </span> 
         </div>
-    </div>
+
+        <!-- Color -->
+        <div class="text-center text-2xl font-thin" id="Color">
+            #000000
+        </div>
+    </wrapper>
 </body>
 </html>
