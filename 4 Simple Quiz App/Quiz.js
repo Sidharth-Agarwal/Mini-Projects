@@ -31,7 +31,7 @@ const questions = [
         answers: [
             {text: "Asia", correct: false},
             {text: "Autralia", correct: true},
-            {text: "Europe", correct: true},
+            {text: "Europe", correct: false},
             {text: "Africa", correct: false}
         ]
     }
